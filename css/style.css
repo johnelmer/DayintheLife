@@ -8138,7 +8138,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: rgba(255, 255, 255, 0.4);
+  color: rgba(0, 0, 0, 0.4);
   background: #fff; }
   body.menu-show {
     overflow: hidden;

@@ -180,24 +180,42 @@
         var vizElement = divElement.getElementsByTagName('object')[0];
         if ( divElement.offsetWidth > 800 ) {
           vizElement.style.width='1000px';
-          vizElement.style.height='1000px';}
+          vizElement.style.height='750px';}
           else if ( divElement.offsetWidth > 500 ) {
-            vizElement.style.width='1000px';vizElement.style.height='927px';} else {
-              vizElement.style.width='100%';vizElement.style.height='927px';}
+            vizElement.style.width='1000px';
+            vizElement.style.height='600px';} else {
+              vizElement.style.width='100%';
+              vizElement.style.height='927px';}
             var scriptElement = document.createElement('script');
             scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
             vizElement.parentNode.insertBefore(scriptElement, vizElement);
           </script>
 	  	</div>
+      <div class="container">
+        <h3>This is a sample header</h3>
+
+
+        <p >Insert Sample Text here</p>
+
+      </div>
   	</section>
 
     <div class="navbar-transparent px-md-0 img pb-md-5 navbar-wrap bg-transparent"
     style="background-image: url(images/bg_1.jpg); height: 400px;"
     data-stellar-background-ratio="0.5">
-
-
     </div>
 
+    <section class="ftco-section ftco-section-2" id="navigationTabs">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 mb-5 mb-md-0">
+            sample description
+          </div>
+
+
+        </div>
+      </div>
+    </section>
 
 
     <div class="navbar-transparent px-md-0 img pb-md-5 navbar-wrap bg-transparent"
