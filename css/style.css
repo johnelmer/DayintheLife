@@ -8219,7 +8219,7 @@ h1, h2, h3, h4, h5,
     background: -o-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #fff 120%);
     background: -ms-linear-gradient(top, rgba(255, 255, 255, 0) 0%, #fff 120%);
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(#fff));
-    background: linear-gradient(180deg, rgba(255,255,255,0) 70%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,0) 75%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fff', GradientType=0 ); }
   .hero-wrap .description {
     height: 750px; }
